@@ -17,12 +17,12 @@ public class Main {
     // Задание 2
 
     public static void variables() {
-        byte byteVal = -128; // 8 бит
-        short shortVal = 32_767; // 16 бит
-        int intVal = 2_147_483_647; // 32 бит
-        long longVal = 9_899_887_984_649_84L; // 64 бит
-        float floatVal = 32_767.0011f; // 32 бит
-        double doubleVal = 3.5458451468541684; // 64 бит
+        byte byteVal = -128;                       // 8 бит
+        short shortVal = 32_767;                   // 16 бит
+        int intVal = 2_147_483_647;                // 32 бит
+        long longVal = 9_899_887_984_649_84L;      // 64 бит
+        float floatVal = 32_767.0011f;             // 32 бит
+        double doubleVal = 3.5458451468541684;     // 64 бит
         char charVal = '\u2242'; // 16 бит
         boolean booleanVal = true;
         String stringVal = "I am string";
