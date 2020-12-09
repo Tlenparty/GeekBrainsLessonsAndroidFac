@@ -148,6 +148,8 @@ public class lesson4 {
 
             }
 
+
+
     private static void humanTurn() {
         int x = 0;
         int y = 0;

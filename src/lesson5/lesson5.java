@@ -1,5 +1,8 @@
 package lesson5;
 
+import com.sun.scenario.effect.impl.sw.java.JSWBlend_SRC_OUTPeer;
+import org.w3c.dom.ls.LSOutput;
+
 public class lesson5 {
 
     public static void main(String[] args) {
@@ -21,7 +24,7 @@ public class lesson5 {
 
         for (Employed employed : empArray) {
             if(employed.age > 40){
-                employed.printInfo();
+                System.out.println(employed);
             }
         }
     }
