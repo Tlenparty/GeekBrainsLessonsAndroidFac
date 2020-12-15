@@ -13,7 +13,7 @@ package lesson1;
 8. * Написать метод, который определяет является ли год високосным, и выводит сообщение в консоль. Каждый 4-й год является
 високосным, кроме каждого 100-го, при этом каждый 400-й – високосный.*/
 
-public class Main {
+public class lesson1 {
     // Задание 2
 
     public static void variables() {
@@ -23,11 +23,11 @@ public class Main {
         long longVal = 9_899_887_984_649_84L;      // 64 бит
         float floatVal = 32_767.0011f;             // 32 бит
         double doubleVal = 3.5458451468541684;     // 64 бит
-        char charVal = '\u2242'; // 16 бит
+        char charVal = '\u2242';                   // 16 бит
         boolean booleanVal = true;
         String stringVal = "I am string";
         System.out.println("Переменная типа byte " + byteVal);
-        System.out.println(" Переменная типа short " + shortVal);
+        System.out.println("Переменная типа short " + shortVal);
         System.out.println("Перменная тпиа int " + intVal);
         System.out.println("Перменная типа long " + longVal);
         System.out.println("Перменная типа float " + floatVal);
@@ -41,10 +41,10 @@ public class Main {
 
     public static double calculation(double a, double b, double c, double d) {
         if (d == 0) {
-            System.out.println(" На ноль делить нельзя");
+            System.out.println("На ноль делить нельзя");
             return 0; // Просто вернем 0
         } else
-            return a * (b + (c/d));
+            return a * (b + ((double)c/d)); // Для точности приведем результат деленеия к double
     }
 
     // Задание 4
@@ -84,12 +84,17 @@ public class Main {
         }
     }
 
+    // Тернайрный оператор
+
+    static void testTern(int digit){
+        String word = (digit<0)? "negative" : "positive";
+        System.out.printf("This number(%d) is %s digit%n", digit,word);
+    }
+
     // Задание 1
 
     public static void main(String[] args) {
-                 variables();
-        System.out.println(calculation(1,2,3,0));
-        System.out.println(acceptance(15,15));
+             testTern(1);
 
     }
 }
