@@ -1,4 +1,4 @@
-package lesson6;
+package animals;
 
 import java.util.Random;
 

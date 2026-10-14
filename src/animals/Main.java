@@ -1,8 +1,8 @@
-package lesson6;
+package animals;
 
 
 
-public class lesson6 {
+public class Main {
     public static void main(String[] args) {
         Cat cat1 = new Cat("Барсик");
         Cat cat2 = new Cat("Рик");

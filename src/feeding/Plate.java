@@ -1,4 +1,4 @@
-package lesson7;
+package feeding;
 
 import java.sql.SQLOutput;
 

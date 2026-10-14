@@ -1,9 +1,9 @@
-package lesson4;
+package tictactoe;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class lesson4 {
+public class Main {
     // Вводные данные
     public static final int SIZE = 3;
     public static final int LINE_LIMIT = 10;

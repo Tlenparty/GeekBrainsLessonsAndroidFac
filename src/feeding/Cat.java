@@ -1,4 +1,4 @@
-package lesson7;
+package feeding;
 
 
 public class Cat {

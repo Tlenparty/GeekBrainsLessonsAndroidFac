@@ -1,9 +1,9 @@
-package lesson2;
+package arrays;
 
 import java.security.spec.RSAOtherPrimeInfo;
 import java.util.Arrays;
 
-public class lesson2 {
+public class Main {
 /*
 1. Задать целочисленный массив, состоящий из элементов 0 и 1. Например: [ 1, 1, 0, 0, 1, 0, 1, 1, 0, 0 ].
 С помощью цикла и условия заменить 0 на 1, 1 на 0;

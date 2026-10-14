@@ -1,4 +1,4 @@
-package lesson6;
+package animals;
 
 // Задние 1
 public class Dog extends Animal {

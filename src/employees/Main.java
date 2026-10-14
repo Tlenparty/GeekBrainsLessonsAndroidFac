@@ -1,9 +1,9 @@
-package lesson5;
+package employees;
 
 import com.sun.scenario.effect.impl.sw.java.JSWBlend_SRC_OUTPeer;
 import org.w3c.dom.ls.LSOutput;
 
-public class lesson5 {
+public class Main {
 
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-package lesson6;
+package animals;
 
 // Задание 1
 public class Cat extends Animal {
