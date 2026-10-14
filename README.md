@@ -1,23 +1,23 @@
 # Java Basics
 
-Сборник небольших консольных программ на Java: от базового синтаксиса до
-простых игр и ООП. Каждый пакет — отдельная программа со своим `Main`.
+A collection of small console programs in Java, from basic syntax to
+simple games and OOP. Each package is a separate program with its own `Main`.
 
-## Содержание
+## Contents
 
-| Пакет | Что делает |
-|-------|------------|
-| `basics` | Примитивные типы, арифметика, условия: проверка суммы на диапазон, знак числа, приветствие, високосный год |
-| `arrays` | Работа с массивами: инверсия 0/1, заполнение, диагональ матрицы, min/max, поиск точки баланса, циклический сдвиг на *n* без вспомогательного массива |
-| `games` | «Угадай число» (3 попытки) и «Угадай слово» с подсказкой совпавших букв |
-| `tictactoe` | Крестики-нолики 3×3 в консоли против компьютера, который пытается выиграть или заблокировать ход игрока |
-| `employees` | Класс сотрудника с валидацией возраста, выборка сотрудников старше 40 лет |
-| `animals` | Наследование: кошки и собаки бегают и плавают с ограничениями, подсчёт созданных экземпляров |
-| `feeding` | Коты едят из тарелки: тарелка не уходит в минус, у кота есть сытость, еду можно добавлять |
+| Package | What it does |
+|---------|--------------|
+| `basics` | Primitive types, arithmetic, conditionals: range check of a sum, sign of a number, greeting, leap year |
+| `arrays` | Working with arrays: 0/1 inversion, filling, matrix diagonal, min/max, finding the balance point, cyclic shift by *n* without an auxiliary array |
+| `games` | "Guess the number" (3 attempts) and "Guess the word" with a hint showing matching letters |
+| `tictactoe` | 3×3 console Tic-Tac-Toe against a computer that tries to win or block the player's move |
+| `employees` | An employee class with age validation, selecting employees older than 40 |
+| `animals` | Inheritance: cats and dogs run and swim within limits, counting created instances |
+| `feeding` | Cats eat from a plate: the plate never goes negative, a cat has a satiety level, food can be added |
 
-## Сборка и запуск
+## Build and run
 
-Требуется JDK 11+.
+Requires JDK 11+.
 
 ```bash
 javac -encoding UTF-8 -d out $(find src -name '*.java')
