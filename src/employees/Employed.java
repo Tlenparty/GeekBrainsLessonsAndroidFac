@@ -1,6 +1,5 @@
 package employees;
 
-import com.sun.jndi.ldap.ext.StartTlsResponseImpl;
 
 public class Employed {
 

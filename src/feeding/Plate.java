@@ -1,6 +1,5 @@
 package feeding;
 
-import java.sql.SQLOutput;
 
 public class Plate {
 

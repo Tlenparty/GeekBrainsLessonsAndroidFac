@@ -1,6 +1,5 @@
 package arrays;
 
-import java.security.spec.RSAOtherPrimeInfo;
 import java.util.Arrays;
 
 public class Main {
